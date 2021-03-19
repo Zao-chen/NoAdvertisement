@@ -1,0 +1,87 @@
+op-push-message: true
+#是否开启op入服提示功能
+feedback: true
+#是否打开说脏话者提醒功能
+screen: true
+Whitelist:
+  - baidu.com
+  - www.baidu.com
+  - www.baidu.com/
+  - https://www.baidu.com
+  - https://www.baidu.com/
+  - www.youtube.com
+  - www.youtube.com/
+  - https://www.youtube.com
+  - https://www.youtube.com/
+  - www.pixiv.net
+  - www.pixiv.net/
+  - https://www.pixiv.net
+  - https://www.pixiv.net/
+  - www.mcbbs.net
+  - www.mcbbs.net/
+  - https://www.mcbbs.net
+  - https://www.mcbbs.net/
+  - minecraft.net
+  - minecraft.net/
+  - https://minecraft.net
+  - https://minecraft.net/
+  - discord.gg
+  - discord.gg/
+  - https://discord.gg
+  - https://discord.gg/
+  - www.minecraft.net
+  - www.minecraft.net/
+  - https://www.minecraft.net
+  - https://www.minecraft.net/
+  - pan.baidu.com
+  - pan.baidu.com/
+  - https://pan.baidu.com
+  - https://pan.baidu.com/
+  - cn.bing.com
+  - cn.bing.com/
+  - https://cn.bing.com
+  - https://cn.bing.com/
+  - www.google.cn
+  - www.google.cn/
+  - https://www.google.cn
+  - https://www.google.cn/
+  - account.mojang.com
+  - account.mojang.com/
+  - https://account.mojang.com
+  - https://account.mojang.com/
+  - www.microsoft.com
+  - www.microsoft.com/
+  - https://www.microsoft.com
+  - https://www.microsoft.com/
+  - mc.163.com
+  - mc.163.com/
+  - https://mc.163.com
+  - https://mc.163.com/
+  - www.qq.com
+  - www.qq.com/
+  - https://www.qq.com
+  - https://www.qq.com/
+  - im.qq.com
+  - im.qq.com/
+  - https://im.qq.com
+  - https://im.qq.com/
+#网址白名单（这里为了阅读方便只保留了一个）
+Blacklist:
+  - null
+#网址黑名单（黑名单中的无法发送）
+skip-words:
+  - ","
+  - " "
+  - "+"
+  - "_"
+  - "——"
+#脏话识别防绕过词，例如如果你这里写了一个"$"，那么w$d$n$$m$d会识别成脏话
+screen-words:
+  - cnm
+  - nmsl
+  - wdnmd
+  - wrnm
+#脏话
+Data:
+  - null
+#日志
