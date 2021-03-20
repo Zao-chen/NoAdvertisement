@@ -1,0 +1,17 @@
+name: NoAdvertisement
+version: 1.0-SNAPSHOT
+main: noadvertisement.noadvertisement.NoAdvertisement
+api-version: 1.15
+commands:
+  Noadvertisement:
+    description: 插件主指令
+permissions:
+  noadvertisement.event.get:
+    description: 获取data的权限
+    default: op
+  noadvertisement.event.reload:
+    description: reload的权限
+    default: op
+  noadvertisement.command.add:
+    description: 添加名单的权限
+    default: op
